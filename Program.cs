@@ -10,8 +10,15 @@
         collection.AddLast("Amrit");
 
 
-        Console.WriteLine("Personal Name: ");
+        /*Console.WriteLine("Personal Name: ");*/
 
+        /*foreach (string str in collection)
+        {
+            Console.WriteLine(str);
+        }*/
+
+        /* remove a item from the linked list */
+        collection.Remove(collection.First());
         foreach (string str in collection)
         {
             Console.WriteLine(str);
