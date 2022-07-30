@@ -18,10 +18,18 @@
         }*/
 
         /* remove a item from the linked list */
-        collection.Remove(collection.First());
+        /*collection.Remove(collection.First());
         foreach (string str in collection)
         {
             Console.WriteLine(str);
-        }
+        }*/
+
+        //counting the number of students left after removing in the collection
+        Console.WriteLine($"number of students: {collection.Count}"); // 4
+
+        //after removing
+        collection.Remove(collection.First());
+        Console.WriteLine("after removing");
+        Console.WriteLine($"number of students now: {collection.Count}");
     }
 }
